@@ -8,6 +8,7 @@
     </a>
   </div>
   <HelloWorld :msg="'Vite + Vue'+count" />
+  <Test/>
 </template>
 
 <script setup>

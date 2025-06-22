@@ -1,6 +1,7 @@
 <script setup>
 import { ref , reactive } from 'vue'
 import { useCounter } from "../js/useCounter.js";
+
 defineProps({
   msg: String,
 })
@@ -22,6 +23,7 @@ const { count, increment } = useCounter();
       <code>components/HelloWorld.vue</code> to test HMR
     </p>
   </div>
+
 
   <p>
     Check out
